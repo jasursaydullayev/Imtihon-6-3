@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="shadow  dark:text-white  dark:bg-dark-bg-nav-color">
       <div className="cite-container h-[80px] flex items-center justify-between">
-        <Link to={"/"} className="font-[800] text-2xl ">
+        <Link to={"/"} className="link-nav font-[800] text-2xl ">
           Where in the world?
         </Link>
         <div>
@@ -19,7 +19,7 @@ function Navbar() {
             {/* moon icon */}
             <svg
               onClick={toggle}
-              className="swap-off fill-current w-10 h-10"
+              className="svg swap-off fill-current w-10 h-10"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -28,7 +28,7 @@ function Navbar() {
                {/* sun icon */}
              <svg
               onClick={toggle}
-              className="swap-on fill-current w-10 h-10"
+              className="svg swap-on fill-current w-10 h-10"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >

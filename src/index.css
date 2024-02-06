@@ -137,3 +137,23 @@ ul ol {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 360px){
+  .cite-container{
+    width: 100%;
+    max-width: 443px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .link-nav{
+    font-size: 17px;
+  }
+  .svg{
+    width: 32px;
+    height: 32px;
+  }
+  .drop{
+    margin-bottom: 32px;
+  }
+}

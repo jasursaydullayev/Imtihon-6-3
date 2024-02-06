@@ -16,11 +16,11 @@ function Flitered({ setUrl }) {
   }
   return (
     <div>
-      <div className="dropdown dropdown-hover">
+      <div className="drop dropdown dropdown-hover">
         <div
           tabIndex={0}
           role="button"
-          className="rounded-lg shadow flex justify-center
+          className=" rounded-lg shadow flex justify-center
         items-center gap-[30px] m-1 min-w-[200px] dark:bg-dark-bg-nav-color dark:text-white h-[58px]"
         >
           Filter by Region <IoIosArrowDown />
