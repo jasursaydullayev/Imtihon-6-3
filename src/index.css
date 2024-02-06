@@ -156,4 +156,18 @@ ul ol {
   .drop{
     margin-bottom: 32px;
   }
+  .card-img{
+    margin-top: 49px;
+    height: 229px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: none;
+  }
+  .card-div{
+    margin-top: 0px;
+    gap: 30px;
+  }
+  .common{
+    font-size: 22px;
+  }
 }

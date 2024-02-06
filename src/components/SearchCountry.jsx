@@ -33,7 +33,7 @@ function SearchCountry({setUrl}) {
       </div>
       <input
         onChange={(e) => setName(e.target.value)}
-        className="font-medium text-lg w-full max-w-[480px] min-w-[305px] pl-[74px] mr-[201px] py-[15px] rounded-md shadow dark:bg-dark-bg-nav-color"
+        className="font-medium text-lg w-full min-w-[315px] pr-[204px] pl-[74px] py-[15px] rounded-md shadow dark:bg-dark-bg-nav-color"
         type="text"
         placeholder="Search for a country…"
       />

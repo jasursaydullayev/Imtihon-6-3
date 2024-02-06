@@ -28,15 +28,15 @@ function Card() {
         >
           <MdOutlineKeyboardBackspace /> Back
         </Link>
-        <div className="flex justify-start flex-wrap gap-[110px] mt-[80px]">
+        <div className="card-div flex justify-start flex-wrap gap-[110px] mt-[80px]">
           <img
-            className="w-full shadow max-w-[540px] h-[381px] rounded-xl"
+            className="w-full card-img shadow max-w-[540px] h-[381px] rounded-xl"
             src={flags.png}
             alt={name.common}
           />
           <div className="mt-[39px] w-full max-w-[598px]">
-            <h1 className="mb-[23px] font-[800] text-3xl">{name.common}</h1>
-            <div className="flex gap-[101px] mb-[68px]">
+            <h1 className="common mb-[23px] font-[800] text-3xl">{name.common}</h1>
+            <div className="card-div flex gap-[101px] flex-wrap mb-[68px]">
               <div className="flex flex-nowrap flex-col gap-2 ">
                 <p className="text-sm font-[300]">
                   <span className="text-base font-semibold ">Native Name:</span>{" "}
