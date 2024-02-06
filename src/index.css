@@ -166,8 +166,12 @@ ul ol {
   .card-div{
     margin-top: 0px;
     gap: 30px;
+    flex-wrap: wrap;
   }
   .common{
     font-size: 22px;
+  }
+  .search-inp{
+    padding-right: 0;
   }
 }

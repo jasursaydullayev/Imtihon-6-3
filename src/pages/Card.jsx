@@ -36,7 +36,7 @@ function Card() {
           />
           <div className="mt-[39px] w-full max-w-[598px]">
             <h1 className="common mb-[23px] font-[800] text-3xl">{name.common}</h1>
-            <div className="card-div flex gap-[101px] flex-wrap mb-[68px]">
+            <div className="card-div  flex gap-[101px] flex-nowrap mb-[58px]">
               <div className="flex flex-nowrap flex-col gap-2 ">
                 <p className="text-sm font-[300]">
                   <span className="text-base font-semibold ">Native Name:</span>{" "}
