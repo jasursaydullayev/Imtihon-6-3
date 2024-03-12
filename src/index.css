@@ -15,8 +15,7 @@ body {
   height: 100%;
   font-family: "Nunito Sans", sans-serif;
 }
-.dark{
-  
+.dark {
 }
 #root {
   height: 100%;
@@ -29,16 +28,15 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
-img{
+img {
   object-fit: cover;
 }
-a{
+a {
   text-decoration: none;
 }
 ul ol {
   list-style: none;
 }
-
 
 /* Loader */
 .lds-roller {
@@ -137,8 +135,8 @@ ul ol {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 360px){
-  .cite-container{
+@media screen and (max-width: 360px) {
+  .cite-container {
     width: 100%;
     max-width: 443px;
     margin-left: auto;
@@ -146,32 +144,32 @@ ul ol {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .link-nav{
+  .link-nav {
     font-size: 17px;
   }
-  .svg{
+  .svg {
     width: 32px;
     height: 32px;
   }
-  .drop{
+  .drop {
     margin-bottom: 32px;
   }
-  .card-img{
+  .card-img {
     margin-top: 49px;
     height: 229px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: none;
   }
-  .card-div{
+  .card-div {
     margin-top: 0px;
     gap: 30px;
     flex-wrap: wrap;
   }
-  .common{
+  .common {
     font-size: 22px;
   }
-  .search-inp{
+  .search-inp {
     padding-right: 0;
   }
 }
